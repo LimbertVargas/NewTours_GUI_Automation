@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f341c6e-9e33-4e92-980e-dfc205556ef9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MercuryTours/MercuryTours_Automated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/selenium/WebDriverConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/selenium/WebDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Chrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CalculatorSuiteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MercuryTours_AutomatedTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Trello" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/MercuryTours_AutomatedTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="19" column="99" selection-start-line="19" selection-start-column="99" selection-end-line="19" selection-end-column="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorSuiteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+              <folding>
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/WebDriverConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#1208#1209#0" expanded="true" />
+                <element signature="e#1240#1241#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1148#1149#0" expanded="true" />
+                <element signature="e#1209#1210#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/WebDriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Chrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MercuryTours/MercuryTours_Automated.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/com/foundation/trello/step/BoardStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ListStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foundation/trello/step/ListStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foundation/trello/step/ListAcceptanceStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/feature/list_acceptance.feature" />
+        <option value="$PROJECT_DIR$/schema/CardSchema.json" />
+        <option value="$PROJECT_DIR$/schema/BoardSchema.json" />
+        <option value="$PROJECT_DIR$/schema/ListSchema.json" />
+        <option value="$PROJECT_DIR$/src/test/resources/schema/ListSchema.json" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/resources/feature.list/list_acceptance.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foundation/trello/runner/Runner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/foundation/trello/step/ManagerStepDef.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/schema/BoardSchema.json" />
+        <option value="$PROJECT_DIR$/src/test/resources/schema/CardSchema.json" />
+        <option value="$PROJECT_DIR$/src/test/java/MercuryTours_AutomatedTest.java" />
+        <option value="$PROJECT_DIR$/gradle.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/core/selenium/WebDriverConfig.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CalculatorSuiteTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/selenium/WebDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Chrome.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="990" />
+    <option name="width" value="939" />
+    <option name="height" value="1089" />
+  </component>
+  <component name="ProjectId" id="1PWP1VBwEcqhEvg7tzl55G6Qa6H" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="webdrivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MercuryTours" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="chromedriver" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/foundation/trello" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/schema" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2862069" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\API Testing\Trello-API\schema" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\API Testing\Trello-API\src\test\resources\feature" />
+      <recent name="E:\API Testing\Trello-API\src\test\resources\feature.list" />
+      <recent name="E:\API Testing\Trello-API\src\test\resources" />
+      <recent name="E:\API Testing\Trello-API\src\test" />
+      <recent name="E:\API Testing\Trello-API\src\test\resources\schema" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CalculatorSuiteTest">
+    <configuration name="Feature: board_acceptance" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/board/board_acceptance.feature" />
+      <option name="GLUE" value="com.foundation.trello.step" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Trello_test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: board_acceptance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorSuiteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NewTours_GUI_Automation_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorSuiteTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorSuiteTest.aditiontest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NewTours_GUI_Automation_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculatorSuiteTest" />
+      <option name="METHOD_NAME" value="aditiontest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MercuryTours_AutomatedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NewTours_GUI_Automation_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MercuryTours_AutomatedTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Trello_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.foundation.trello.runner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.foundation.trello.runner" />
+      <option name="MAIN_CLASS_NAME" value="com.foundation.trello.runner.Runner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculatorSuiteTest" />
+        <item itemvalue="JUnit.CalculatorSuiteTest.aditiontest" />
+        <item itemvalue="JUnit.MercuryTours_AutomatedTest" />
+        <item itemvalue="TestNG.Runner (1)" />
+        <item itemvalue="Cucumber java.Feature: board_acceptance" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f341c6e-9e33-4e92-980e-dfc205556ef9" name="Default Changelist" comment="" />
+      <created>1565986666455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565986666455</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Runner_(1) - 2019.08.22 at 20h 22m 36s.xml">
+      <configuration name="Runner (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Runner_(1) - 2019.08.22 at 20h 39m 51s.xml">
+      <configuration name="Runner (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CalculatorSuiteTest - 2019.09.06 at 11h 29m 39s.xml">
+      <configuration name="CalculatorSuiteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MercuryTours_AutomatedTest - 2019.09.06 at 11h 31m 47s.xml">
+      <configuration name="MercuryTours_AutomatedTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MercuryTours_AutomatedTest - 2019.09.06 at 11h 32m 53s.xml">
+      <configuration name="MercuryTours_AutomatedTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorSuiteTest - 2019.09.06 at 12h 25m 16s.xml">
+      <configuration name="CalculatorSuiteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorSuiteTest - 2019.09.06 at 12h 27m 09s.xml">
+      <configuration name="CalculatorSuiteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorSuiteTest - 2019.09.06 at 12h 29m 01s.xml">
+      <configuration name="CalculatorSuiteTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorSuiteTest_aditiontest - 2019.09.06 at 12h 30m 37s.xml">
+      <configuration name="CalculatorSuiteTest.aditiontest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorSuiteTest - 2019.09.06 at 12h 31m 06s.xml">
+      <configuration name="CalculatorSuiteTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27240896" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3297587" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.22788204" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3297587" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/board.feature" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-java/4.3.1/330702bb9c56b57de88fa8adbd087c9ca4c7fbc1/cucumber-java-4.3.1-sources.jar!/cucumber/api/java/en/When.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foundation/trello/step/BoardAcceptanceStepDef.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foundation/trello/util/Authentication.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foundation/trello/step/BoardStepDef.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foundation/trello/schema/SchemaBoard.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/schema/board.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foundation/trello/step/ListAcceptanceStepDef.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/list_acceptance.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foundation/trello/runner/Runner.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.cucumber/cucumber-testng/4.7.1/572ed3705a87a88178b2f09301dc2cae84d418e5/cucumber-testng-4.7.1.jar!/cucumber/api/testng/AbstractTestNGCucumberTests.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/foundation/trello/report/ReportTrello.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/list/list_acceptance.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foundation/trello/model/request/RequestPut.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foundation/trello/model/request/RequestDelete.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foundation/trello/hook/BoardHook.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foundation/trello/model/request/RequestGet.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/foundation/trello/step/ManagerStepDef.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/schema/BoardSchema.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/board/board_acceptance.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/feature/card/card_acceptance.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/schema/ListSchema.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/schema/CardSchema.json" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="85" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Chrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/WebDriverConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/WebDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/MercuryTours_AutomatedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="99" selection-start-line="19" selection-start-column="99" selection-end-line="19" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorSuiteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
