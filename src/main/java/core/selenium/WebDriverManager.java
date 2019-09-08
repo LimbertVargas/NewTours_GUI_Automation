@@ -1,35 +1,33 @@
 package core.selenium;
 
-import core.selenium.webdrivers.Chrome;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.concurrent.TimeUnit;
+
 public class WebDriverManager {
     private static WebDriverManager webDriverManager;
-    private WebDriver webDriver;
-    private WebDriverWait webDriverWait;
+    private static WebDriver webDriver;
+    private static WebDriverWait webDriverWait;
 
     public WebDriverManager(){
         initializes();
     }
 
     public static WebDriverManager getInstance(){
-        if(webDriverManager == null){
+        if(webDriverManager == null || webDriverManager.webDriver == null) {
             webDriverManager = new WebDriverManager();
         }
         return webDriverManager;
     }
 
     private void initializes(){
-        switch (WebDriverConfig.getInstance().getBrowser()){
-            case "chrome":
-                webDriver = new Chrome().initDriver();
-                break;
-            default:
-                throw new RuntimeException("The browser is not exist");
-        }
-        this.webDriver.get("https://www.calculadora.org/");
+        this.webDriver = WebDriverFactory.getWebDriver(WebDriverConfig.getInstance().getBrowser());
+        this.webDriver.get("http://newtours.demoaut.com/mercurywelcome.php");
         this.webDriver.manage().window().maximize();
+        this.webDriver.manage().timeouts().implicitlyWait(WebDriverConfig.getInstance().getImplicitWaitTime(),
+                TimeUnit.SECONDS);
+        webDriverWait = new WebDriverWait(webDriver, WebDriverConfig.getInstance().getExplicitWaitTime());
     }
 
     public WebDriver getWebDriver(){

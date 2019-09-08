@@ -1,23 +1,34 @@
 package core.selenium;
 
+import core.selenium.webdrivers.Browsers;
+
 import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.Properties;
 
-public class WebDriverConfig {
+/**
+ * This class contains the basic configuration for the browser.
+ *
+ * @author Limbert Alvaro Vargas Laura.
+ * @version 0.1
+ */
+public final class WebDriverConfig {
     private static WebDriverConfig webDriverConfig;
-    private Properties properties;
-    private InputStream inputProperties;
+    private static Properties properties;
+    private static InputStream inputProperties;
+    private static final String EXPLICIT_WAIT = "explicit_wait";
+    private static final String IMPLICIT_WAIT = "implicit_wait";
+    private static final String BROWSER = "browser";
 
     /**
-     * This is constructor for init variables.
+     * This constructor initializes variables.
      */
     private WebDriverConfig() {
         properties = readConfigurationFile();
     }
 
     /**
-     *This method reads the file 'config.properties' and returns its values through the object 'properties'.
+     * This method reads the file 'gradle.properties' and returns its values through the object 'properties'.
      *
      * @return an object 'properties' with which you can get data from "gradle.properties".
      */
@@ -32,26 +43,26 @@ public class WebDriverConfig {
         return properties;
     }
 
-    public static WebDriverConfig getInstance(){
-        if(webDriverConfig == null){
+    public static WebDriverConfig getInstance() {
+        if (webDriverConfig == null) {
             webDriverConfig = new WebDriverConfig();
         }
         return webDriverConfig;
     }
 
-    public Properties getProperties(){
+    public Properties getProperties() {
         return properties;
     }
 
-    public String getBrowser(){
-        return properties.getProperty("browser");
+    public Browsers getBrowser() {
+        return Browsers.valueOf(properties.getProperty(BROWSER));
     }
 
-    public String getImplicitWait(){
-        return properties.getProperty("ImplicitWait");
+    public int getImplicitWaitTime() {
+        return Integer.parseInt(properties.getProperty(IMPLICIT_WAIT));
     }
 
-    public String getExplicitWait(){
-        return properties.getProperty("ExplicitWait");
+    public int getExplicitWaitTime() {
+        return Integer.parseInt(properties.getProperty(EXPLICIT_WAIT));
     }
 }
