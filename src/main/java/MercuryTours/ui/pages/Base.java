@@ -4,10 +4,10 @@ import core.selenium.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-public class Base {
-    public WebDriver driver;
+public abstract class Base {
+    protected WebDriver driver;
 
-    public Base(WebDriver driver) {
+    public Base() {
         this.driver = WebDriverManager.getInstance().getWebDriver();
         PageFactory.initElements(driver,this);
     }

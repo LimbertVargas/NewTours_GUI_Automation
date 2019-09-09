@@ -1,6 +1,5 @@
 package MercuryTours.ui.pages;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -15,9 +14,8 @@ public class LoginPage extends Base {
     @FindBy(name = "login")
     private WebElement signInBtn;
 
-    public LoginPage(WebDriver driver) {
-        super(driver);
-    }
+    @FindBy(xpath = "//img[@src='/images/masts/mast_flightfinder.gif']")
+    private WebElement homePageImg;
 
     public void login(final String userName, final String password) {
         setUserName(userName);
@@ -35,6 +33,10 @@ public class LoginPage extends Base {
 
     public void clickSignInBtn() {
         signInBtn.click();
+    }
+
+    public boolean getImg() {
+        return homePageImg.isDisplayed();
     }
 
     public void closeWindow() {

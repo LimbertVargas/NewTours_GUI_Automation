@@ -24,7 +24,7 @@ public final class WebDriverConfig {
      * This constructor initializes variables.
      */
     private WebDriverConfig() {
-        properties = readConfigurationFile();
+        readConfigurationFile();
     }
 
     /**
@@ -32,7 +32,7 @@ public final class WebDriverConfig {
      *
      * @return an object 'properties' with which you can get data from "gradle.properties".
      */
-    private Properties readConfigurationFile() {
+    public void readConfigurationFile() {
         try {
             inputProperties = new FileInputStream("gradle.properties");
             properties = new Properties();
@@ -40,7 +40,6 @@ public final class WebDriverConfig {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return properties;
     }
 
     public static WebDriverConfig getInstance() {
