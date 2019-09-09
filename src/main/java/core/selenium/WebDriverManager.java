@@ -5,23 +5,41 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * This class creates an instance of a browser.
+ *
+ * @author Limbert Alvaro Vargas Laura
+ * @version 0.0.1
+ */
 public class WebDriverManager {
     private static WebDriverManager webDriverManager;
     private static WebDriver webDriver;
     private static WebDriverWait webDriverWait;
 
-    public WebDriverManager(){
+    /**
+     * Constructor of WebDriverManager.
+     */
+    public WebDriverManager() {
         initializes();
     }
 
-    public static WebDriverManager getInstance(){
-        if(webDriverManager == null) {
+    /**
+     * This method verifies that there is only one instance of 'WebDriverManager'
+     * and if there is not, it creates it, according to the Singleton pattern.
+     *
+     * @return 'webDriverManager' variable, that is an instance of WebDriverManager.
+     */
+    public static WebDriverManager getInstance() {
+        if (webDriverManager == null) {
             webDriverManager = new WebDriverManager();
         }
         return webDriverManager;
     }
 
-    private void initializes(){
+    /**
+     * This method initializes the characteristics of the browser.
+     */
+    private void initializes() {
         this.webDriver = WebDriverFactory.getWebDriver(WebDriverConfig.getInstance().getBrowser());
         this.webDriver.get("http://newtours.demoaut.com/");
         this.webDriver.manage().window().maximize();
@@ -30,7 +48,12 @@ public class WebDriverManager {
         webDriverWait = new WebDriverWait(webDriver, WebDriverConfig.getInstance().getExplicitWaitTime());
     }
 
-    public WebDriver getWebDriver(){
+    /**
+     * This method returns an instance if WebDriverManager.
+     *
+     * @return webDriver, that is an instance of a browser.
+     */
+    public WebDriver getWebDriver() {
         return webDriver;
     }
 }

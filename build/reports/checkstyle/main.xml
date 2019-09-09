@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.1">
+<file name="E:\Modulo III\GUI Automation\NewTours_GUI_Automation\src\main\java\MercuryTours\ui\pages\Base.java">
+</file>
+<file name="E:\Modulo III\GUI Automation\NewTours_GUI_Automation\src\main\java\MercuryTours\ui\pages\LoginPage.java">
+</file>
+<file name="E:\Modulo III\GUI Automation\NewTours_GUI_Automation\src\main\java\core\selenium\WebDriverConfig.java">
+</file>
+<file name="E:\Modulo III\GUI Automation\NewTours_GUI_Automation\src\main\java\core\selenium\WebDriverFactory.java">
+</file>
+<file name="E:\Modulo III\GUI Automation\NewTours_GUI_Automation\src\main\java\core\selenium\WebDriverManager.java">
+</file>
+<file name="E:\Modulo III\GUI Automation\NewTours_GUI_Automation\src\main\java\core\selenium\webdrivers\Browsers.java">
+</file>
+<file name="E:\Modulo III\GUI Automation\NewTours_GUI_Automation\src\main\java\core\selenium\webdrivers\Chrome.java">
+</file>
+<file name="E:\Modulo III\GUI Automation\NewTours_GUI_Automation\src\main\java\core\selenium\webdrivers\Firefox.java">
+</file>
+</checkstyle>

@@ -2,10 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f341c6e-9e33-4e92-980e-dfc205556ef9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/register.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/test/chromedriver/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MercuryTours/ui/pages/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MercuryTours/ui/pages/Base.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MercuryTours/ui/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MercuryTours/ui/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/core/selenium/WebDriverConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/selenium/WebDriverConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/selenium/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/selenium/WebDriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/core/selenium/WebDriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/selenium/WebDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Browsers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Browsers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Chrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Chrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Firefox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Firefox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MercuryTours_AutomatedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runner/RunCukesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/RunCukesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -50,26 +76,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/WebDriverConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Chrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="56" column="77" selection-start-line="56" selection-start-column="77" selection-end-line="56" selection-end-column="77" />
+            <state relative-caret-position="176">
+              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#1655#1656#0" expanded="true" />
-                <element signature="e#1727#1728#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Firefox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="13" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+            <state relative-caret-position="296">
+              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -77,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/WebDriverFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="260">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,52 +112,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginSteps.java">
+        <entry file="file://$PROJECT_DIR$/config/checkstyle/checkstyle.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MercuryTours/ui/pages/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="284">
+              <caret line="179" column="13" lean-forward="true" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/java/runner/RunCukesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Chrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="100">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -140,30 +132,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Browsers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="160">
+              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-core/1.2.5/c4fee6de8487b287994b917624d3ad1ede52a4ca/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/Utils.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MercuryTours/ui/pages/Base.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/WebDriverManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="120">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/register.feature">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1050#1051#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -201,17 +212,19 @@
         <option value="$PROJECT_DIR$/src/test/java/CalculatorSuiteTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MercuryTours_AutomatedTest.java" />
         <option value="$PROJECT_DIR$/gradle.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Browsers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/core/selenium/WebDriverFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Firefox.java" />
-        <option value="$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Chrome.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/MercuryTours/ui/pages/Base.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/core/selenium/WebDriverManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/core/selenium/WebDriverConfig.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/MercuryTours/ui/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/selenium/WebDriverConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/selenium/WebDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/selenium/WebDriverFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Browsers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Chrome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Firefox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MercuryTours/ui/pages/Base.java" />
+        <option value="$PROJECT_DIR$/config/checkstyle/checkstyle.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/runner/RunCukesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" />
       </list>
     </option>
   </component>
@@ -268,25 +281,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="selenium" type="462c0819:PsiDirectoryNode" />
-              <item name="webdrivers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="MercuryTours" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -326,7 +320,31 @@
               <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewTours_GUI_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NewTours_GUI_Automation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -340,7 +358,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/foundation/trello" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AutomationPractice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config/checkstyle/checkstyle.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2862069" />
@@ -451,12 +469,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__login - 2019.09.09 at 01h 37m 56s.xml">
-      <configuration name="Feature: login" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__login - 2019.09.09 at 01h 42m 55s.xml">
-      <configuration name="Feature: login" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__login - 2019.09.09 at 08h 56m 58s.xml">
       <configuration name="Feature: login" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -481,12 +493,17 @@
     <history-entry file="Feature__login - 2019.09.09 at 09h 26m 29s.xml">
       <configuration name="Feature: login" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Feature__login - 2019.09.09 at 10h 00m 37s.xml">
+      <configuration name="Feature: login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__login - 2019.09.09 at 10h 53m 40s.xml">
+      <configuration name="Feature: login" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23355705" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23221476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -495,12 +512,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297587" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32808024" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3297587" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32719547" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.22788204" />
@@ -589,34 +606,10 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/schema/ListSchema.json" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/schema/CardSchema.json" />
     <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorSuiteTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Firefox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MercuryTours/MercuryTours_Automated.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runner/RunCukesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -637,66 +630,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MercuryTours/ui/pages/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/info.cukes/cucumber-core/1.2.5/c4fee6de8487b287994b917624d3ad1ede52a4ca/cucumber-core-1.2.5-sources.jar!/cucumber/runtime/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Chrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/WebDriverFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Browsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/WebDriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -707,42 +644,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/WebDriverConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="56" column="77" selection-start-line="56" selection-start-column="77" selection-end-line="56" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#1655#1656#0" expanded="true" />
-            <element signature="e#1727#1728#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginSteps.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-          </folding>
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MercuryTours/ui/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        <state relative-caret-position="284">
+          <caret line="72" column="41" selection-start-line="72" selection-start-column="41" selection-end-line="72" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#1751#1752#0" expanded="true" />
+            <element signature="e#1910#1911#0" expanded="true" />
+            <element signature="e#1940#1941#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/WebDriverConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="e#1727#1728#0" expanded="true" />
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1533#1534#0" expanded="true" />
+            <element signature="e#1611#1612#0" expanded="true" />
+            <element signature="e#1651#1652#0" expanded="true" />
+            <element signature="e#1729#1730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/WebDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Browsers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Chrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/webdrivers/Firefox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MercuryTours/ui/pages/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/register.feature">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/core/selenium/WebDriverFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/checkstyle/checkstyle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="179" column="13" lean-forward="true" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runner/RunCukesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
           </folding>
         </state>
       </provider>
