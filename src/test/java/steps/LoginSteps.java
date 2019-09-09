@@ -23,6 +23,6 @@ public class LoginSteps {
 
     @Then("To check the user the title FLIGHT FINDER is displayed")
     public void verifyAccount() {
-        Assert.assertEquals(loginPage.getImg(),"/images/masts/mast_flightfinder.gif");
+        Assert.assertEquals(loginPage.getImg(),"SIGN-OFF");
     }
 }

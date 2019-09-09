@@ -54,7 +54,7 @@ public final class WebDriverConfig {
     }
 
     public Browsers getBrowser() {
-        return Browsers.valueOf(properties.getProperty(BROWSER));
+        return Browsers.valueOf(properties.getProperty(BROWSER).toUpperCase());
     }
 
     public int getImplicitWaitTime() {

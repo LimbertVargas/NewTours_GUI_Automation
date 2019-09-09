@@ -14,8 +14,8 @@ public class LoginPage extends Base {
     @FindBy(name = "login")
     private WebElement signInBtn;
 
-    @FindBy(xpath = "//img[@src='/images/masts/mast_flightfinder.gif']")
-    private WebElement homePageImg;
+    @FindBy(linkText = "SIGN-OFF")
+    private WebElement homePageTxt;
 
     public void login(final String userName, final String password) {
         setUserName(userName);
@@ -35,8 +35,8 @@ public class LoginPage extends Base {
         signInBtn.click();
     }
 
-    public boolean getImg() {
-        return homePageImg.isDisplayed();
+    public String getText() {
+        return homePageTxt.getText();
     }
 
     public void closeWindow() {

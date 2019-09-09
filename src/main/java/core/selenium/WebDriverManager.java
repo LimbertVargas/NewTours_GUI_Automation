@@ -15,7 +15,7 @@ public class WebDriverManager {
     }
 
     public static WebDriverManager getInstance(){
-        if(webDriverManager == null || webDriverManager.webDriver == null) {
+        if(webDriverManager == null) {
             webDriverManager = new WebDriverManager();
         }
         return webDriverManager;
@@ -23,7 +23,7 @@ public class WebDriverManager {
 
     private void initializes(){
         this.webDriver = WebDriverFactory.getWebDriver(WebDriverConfig.getInstance().getBrowser());
-        this.webDriver.get("http://newtours.demoaut.com/mercurywelcome.php");
+        this.webDriver.get("http://newtours.demoaut.com/");
         this.webDriver.manage().window().maximize();
         this.webDriver.manage().timeouts().implicitlyWait(WebDriverConfig.getInstance().getImplicitWaitTime(),
                 TimeUnit.SECONDS);
