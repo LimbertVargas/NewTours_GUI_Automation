@@ -1,6 +1,7 @@
 package core.selenium;
 
 import core.selenium.webdrivers.Browsers;
+import core.utils.Log;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
@@ -15,7 +16,6 @@ import java.util.Properties;
 public final class WebDriverConfig {
     private static WebDriverConfig webDriverConfig;
     private static Properties properties;
-    private static InputStream inputProperties;
     private static final String EXPLICIT_WAIT = "explicit_wait";
     private static final String IMPLICIT_WAIT = "implicit_wait";
     private static final String BROWSER = "browser";
@@ -31,12 +31,13 @@ public final class WebDriverConfig {
      * This method reads browser properties and initializes the basic browser characteristics.
      */
     public void readConfigurationFile() {
+        InputStream inputProperties;
         try {
             inputProperties = new FileInputStream("gradle.properties");
             properties = new Properties();
             properties.load(inputProperties);
         } catch (Exception e) {
-            e.printStackTrace();
+            Log.getInstance().getLogger().error(e + "Something went wrong.");
         }
     }
 

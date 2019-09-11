@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * @author Limbert Alvaro Vargas Laura
  * @version 0.0.1
  */
-public class WebDriverManager {
+public final class WebDriverManager {
     private static WebDriverManager webDriverManager;
     private static WebDriver webDriver;
     private static WebDriverWait webDriverWait;
@@ -30,7 +30,7 @@ public class WebDriverManager {
      * @return 'webDriverManager' variable, that is an instance of WebDriverManager.
      */
     public static WebDriverManager getInstance() {
-        if (webDriverManager == null) {
+        if (webDriverManager == null || webDriverManager.webDriver == null) {
             webDriverManager = new WebDriverManager();
         }
         return webDriverManager;
@@ -41,7 +41,7 @@ public class WebDriverManager {
      */
     private void initializes() {
         this.webDriver = WebDriverFactory.getWebDriver(WebDriverConfig.getInstance().getBrowser());
-        this.webDriver.get("http://newtours.demoaut.com/");
+        //this.webDriver.get("http://newtours.demoaut.com/");
         this.webDriver.manage().window().maximize();
         this.webDriver.manage().timeouts().implicitlyWait(WebDriverConfig.getInstance().getImplicitWaitTime(),
                 TimeUnit.SECONDS);
@@ -55,5 +55,9 @@ public class WebDriverManager {
      */
     public WebDriver getWebDriver() {
         return webDriver;
+    }
+
+    public WebDriverWait getWebDriverWait() {
+        return webDriverWait;
     }
 }

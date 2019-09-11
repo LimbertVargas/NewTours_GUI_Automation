@@ -1,5 +1,6 @@
 package MercuryTours.ui.pages;
 
+import MercuryTours.ui.common.AppReader;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -30,8 +31,8 @@ public class LoginPage extends Base {
      * @param password is in charge of manage the assign password to user name.
      */
     public void login(final String userName, final String password) {
-        setUserName(userName);
-        setPassword(password);
+        setUserName(AppReader.getInstance().getUsername());
+        setPassword(AppReader.getInstance().getPassword());
         clickSignInBtn();
     }
 
