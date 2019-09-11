@@ -58,9 +58,9 @@ public final class WebDriverConfig {
      *
      * @return a properties.
      */
-    public Properties getProperties() {
-        return properties;
-    }
+//    public Properties getProperties() {
+//        return properties;
+//    }
 
     /**
      * This method gets the browser type set for the WebDriver.
