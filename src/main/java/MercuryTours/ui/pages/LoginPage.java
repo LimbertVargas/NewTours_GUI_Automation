@@ -31,8 +31,8 @@ public class LoginPage extends Base {
      * @param password is in charge of manage the assign password to user name.
      */
     public void login(final String userName, final String password) {
-        setUserName(AppReader.getInstance().getUsername());
-        setPassword(AppReader.getInstance().getPassword());
+        setUserName(AppReader.getInstance().getFileProperties(userName));
+        setPassword(AppReader.getInstance().getFileProperties(password));
         clickSignInBtn();
     }
 

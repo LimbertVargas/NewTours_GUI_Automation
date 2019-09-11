@@ -9,6 +9,12 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Report Mercury Tours class.
+ *
+ * @author Limbert Alvaro Vargas Laura
+ * @version 0.0.1
+ */
 public class Report {
     /**
      * This method gets an instance of Report from getInstance.

@@ -57,6 +57,11 @@ public final class WebDriverManager {
         return webDriver;
     }
 
+    /**
+     * This method is used for get a WebDriverWait.
+     *
+     * @return a WebDriverWait.
+     */
     public WebDriverWait getWebDriverWait() {
         return webDriverWait;
     }

@@ -11,14 +11,14 @@ import org.openqa.selenium.chrome.ChromeOptions;
  * @author Limbert Alvaro Vargas Laura
  * @version 0.0.1
  */
-public class Chrome {
+public class Chrome implements IBrowsers {
 
     /**
      * Initializes Chrome driver.
      *
      * @return a ChromeDriver.
      */
-    public WebDriver initChrome() {
+    public WebDriver init() {
         ChromeDriverManager.getInstance().version("76.0.3809.126").setup();
         ChromeOptions chromeOptions = new ChromeOptions();
         return new ChromeDriver(chromeOptions);

@@ -3,7 +3,14 @@ package core.selenium;
 import core.selenium.webdrivers.Browsers;
 import core.selenium.webdrivers.Chrome;
 import core.selenium.webdrivers.Firefox;
+import core.selenium.webdrivers.IBrowsers;
 import org.openqa.selenium.WebDriver;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import static core.selenium.webdrivers.Browsers.CHROME;
+import static core.selenium.webdrivers.Browsers.FIREFOX;
 
 /**
  * WebDriverFactory class, this class initializes a browser according to the type it receives.
@@ -11,7 +18,7 @@ import org.openqa.selenium.WebDriver;
  * @author Limbert Alvaro Vargas Laura
  * @version 0.0.1
  */
-public final class WebDriverFactory {
+public class WebDriverFactory {
     private static WebDriver webDriver;
     private static final String BROWSER_MESSAGE = "Browser is not exist";
 
@@ -21,19 +28,11 @@ public final class WebDriverFactory {
      * @param browsers this parameter indicates the type of browser to be initialized.
      * @return webDriver, an initialized browser.
      */
-    public static WebDriver getWebDriver(Browsers browsers) {
-        switch (browsers) {
-            case CHROME:
-                webDriver = new Chrome().initChrome();
-                break;
-
-            case FIREFOX:
-                webDriver = new Firefox().initFirefox();
-                break;
-
-            default:
-                throw new RuntimeException(BROWSER_MESSAGE);
-        }
-        return webDriver;
+    public static WebDriver getWebDriver(final Browsers browsers) {
+        Map<Browsers, IBrowsers> map;
+        map = new HashMap<>();
+        map.put(CHROME, new Chrome());
+        map.put(FIREFOX, new Firefox());
+        return map.get(browsers).init();
     }
 }

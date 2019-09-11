@@ -1,34 +1,25 @@
 package MercuryTours.ui.pages;
 
 import MercuryTours.ui.common.AppReader;
-import org.openqa.selenium.WebDriver;
 import core.selenium.WebDriverManager;
+import org.openqa.selenium.WebDriver;
 
+/**
+ * This class is used to navigate the page.
+ *
+ * @author Limbert Alvaro Vargas Laura
+ * @version 0.0.1
+ */
 public class PageTransporter {
-    private static PageTransporter pageTransporter;
-    private WebDriver webDriver;
+    private static WebDriver webDriver;
 
-    private PageTransporter() {
-        browserInit();
-    }
-
-    public void browserInit() {
+    /**
+     * This method is used for go to a page.
+     *
+     * @param url The parameter url defines a input url.
+     */
+    public static void goToLoginPage(final String url) {
         webDriver = WebDriverManager.getInstance().getWebDriver();
-    }
-
-    public static PageTransporter getInstance() {
-        if (pageTransporter == null) {
-            pageTransporter = new PageTransporter();
-        }
-        return pageTransporter;
-    }
-
-    public void goToUrl (final String url) {
-        webDriver.navigate().to(url);
-    }
-
-    public LoginPage goToLoginPage() {
-        goToUrl(AppReader.getInstance().getUrlLogin());
-        return new LoginPage();
+        webDriver.navigate().to(AppReader.getInstance().getUrlLogin(url));
     }
 }
