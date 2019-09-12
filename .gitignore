@@ -24,3 +24,10 @@ hs_err_pid*
 
 # Reports
 target/
+
+# Gradle
+.gradle/
+
+.idea/
+
+
