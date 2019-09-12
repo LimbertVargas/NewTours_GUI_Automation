@@ -27,7 +27,12 @@ target/
 
 # Gradle
 .gradle/
+*.iml/
+build/
+out/
 
+#IntelliJ
 .idea/
-
+log/
+target/
 
