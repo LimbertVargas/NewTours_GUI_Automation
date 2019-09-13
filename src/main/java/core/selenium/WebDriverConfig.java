@@ -19,18 +19,19 @@ public final class WebDriverConfig {
     private static final String EXPLICIT_WAIT = "explicit_wait";
     private static final String IMPLICIT_WAIT = "implicit_wait";
     private static final String BROWSER = "browser";
+    private static final String MAIN_URL = "main_url";
 
     /**
      * This constructor initializes variables.
      */
     private WebDriverConfig() {
-        readConfigurationFile();
+        properties = readConfigurationFile();
     }
 
     /**
      * This method reads browser properties and initializes the basic browser characteristics.
      */
-    public void readConfigurationFile() {
+    private Properties readConfigurationFile() {
         InputStream inputProperties;
         try {
             inputProperties = new FileInputStream("gradle.properties");
@@ -40,6 +41,7 @@ public final class WebDriverConfig {
             Log.getInstance().getLogger().error(e + "Something went wrong.");
             throw new NullPointerException(e + "Something went wrong");
         }
+        return properties;
     }
 
     /**

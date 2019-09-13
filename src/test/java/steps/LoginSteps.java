@@ -1,5 +1,6 @@
 package steps;
 
+import MercuryTours.ui.common.AppReader;
 import MercuryTours.ui.pages.LoginPage;
 import MercuryTours.ui.pages.PageTransporter;
 import cucumber.api.java.en.Given;
@@ -21,7 +22,7 @@ public class LoginSteps {
      */
     @Given("I visit the main page of Mercury Tours")
     public void initializePage() {
-        loginPage = PageTransporter.getInstance().goToLoginPage();
+        PageTransporter.goToLoginPage("http://newtours.demoaut.com/");
     }
 
     /**

@@ -17,8 +17,6 @@ public final class AppReader {
     private static final String FILE_PROPERTIES = "MercuryTours.properties";
     private static AppReader appReader;
     private Properties properties;
-    private FileInputStream fileInputStream;
-
     /**
      * this method is used for initializes the variables.
      */
@@ -32,12 +30,14 @@ public final class AppReader {
      * @return an object 'properties' with wich you can get data from 'gradle.properties'.
      */
     private Properties readConfigFile() {
+        FileInputStream fileInputStream;
         try {
             fileInputStream = new FileInputStream(FILE_PROPERTIES);
             properties = new Properties();
             properties.load(fileInputStream);
         } catch (IOException e) {
             Log.getInstance().getLogger().error(e);
+            throw new RuntimeException(e);
         }
         return properties;
     }
