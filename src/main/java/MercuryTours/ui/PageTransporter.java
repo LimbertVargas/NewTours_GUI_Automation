@@ -20,6 +20,6 @@ public class PageTransporter {
      */
     public static void goToLoginPage(final String url) {
         webDriver = WebDriverManager.getInstance().getWebDriver();
-        webDriver.navigate().to(AppReader.getInstance().getUrlLogin(url));
+        webDriver.navigate().to(AppReader.getInstance().getUrlLogin());
     }
 }

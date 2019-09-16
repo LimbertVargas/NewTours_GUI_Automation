@@ -15,7 +15,7 @@ public class ManagerStep {
      *
      * @param url defines a input string with the url.
      */
-    @Given("I visit the main page of Mercury Tours")
+    @Given("I visit the main \"([^\"]*)\" of Mercury Tours")
     public static void initializePage(final String url) {
         PageTransporter.goToLoginPage(url);
     }
