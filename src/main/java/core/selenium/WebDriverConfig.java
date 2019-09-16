@@ -15,9 +15,10 @@ import java.util.Properties;
  */
 public final class WebDriverConfig {
     private static WebDriverConfig webDriverConfig;
-    private static Properties properties;
+    private Properties properties;
     private static final String EXPLICIT_WAIT = "explicit_wait";
     private static final String IMPLICIT_WAIT = "implicit_wait";
+    private static final String WAIT_SLEEP_TIME = "wait_sleep_time";
     private static final String BROWSER = "browser";
     private static final String MAIN_URL = "main_url";
 
@@ -30,13 +31,14 @@ public final class WebDriverConfig {
 
     /**
      * This method reads browser properties and initializes the basic browser characteristics.
+     *
+     * @return properties with you can get data from 'gradle.properties'.
      */
     private Properties readConfigurationFile() {
-        InputStream inputProperties;
         try {
-            inputProperties = new FileInputStream("gradle.properties");
+            FileInputStream inputStream = new FileInputStream("gradle.properties");
             properties = new Properties();
-            properties.load(inputProperties);
+            properties.load(inputStream);
         } catch (Exception e) {
             Log.getInstance().getLogger().error(e + "Something went wrong.");
             throw new NullPointerException(e + "Something went wrong");
@@ -58,15 +60,6 @@ public final class WebDriverConfig {
     }
 
     /**
-     * This method get the properties  set for the WebDriver.
-     *
-     * @return a properties.
-     */
-//    public Properties getProperties() {
-//        return properties;
-//    }
-
-    /**
      * This method gets the browser type set for the WebDriver.
      *
      * @return a browser type.
@@ -80,8 +73,8 @@ public final class WebDriverConfig {
      *
      * @return the implicit wait time for the browser.
      */
-    public int getImplicitWaitTime() {
-        return Integer.parseInt(properties.getProperty(IMPLICIT_WAIT));
+    public long getImplicitWaitTime() {
+        return Long.parseLong(properties.getProperty(IMPLICIT_WAIT));
     }
 
     /**
@@ -89,7 +82,25 @@ public final class WebDriverConfig {
      *
      * @return the explicit wait time for the browser.
      */
-    public int getExplicitWaitTime() {
-        return Integer.parseInt(properties.getProperty(EXPLICIT_WAIT));
+    public long getExplicitWaitTime() {
+        return Long.parseLong(properties.getProperty(EXPLICIT_WAIT));
+    }
+
+    /**
+     * Gives the wait sleep properties read from 'gradle.properties'.
+     *
+     * @return a wait sleep time.
+     */
+    public long getSleep() {
+        return Long.parseLong(properties.getProperty(WAIT_SLEEP_TIME));
+    }
+
+    /**
+     * Gives the browser properties read from 'gradle.properties'.
+     *
+     * @return the main url base.
+     */
+    public String getMainUrl() {
+        return properties.getProperty(MAIN_URL);
     }
 }

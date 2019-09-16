@@ -41,7 +41,6 @@ public final class WebDriverManager {
      */
     private void initializes() {
         this.webDriver = WebDriverFactory.getWebDriver(WebDriverConfig.getInstance().getBrowser());
-        //this.webDriver.get("http://newtours.demoaut.com/");
         this.webDriver.manage().window().maximize();
         this.webDriver.manage().timeouts().implicitlyWait(WebDriverConfig.getInstance().getImplicitWaitTime(),
                 TimeUnit.SECONDS);

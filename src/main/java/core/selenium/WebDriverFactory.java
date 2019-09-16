@@ -19,9 +19,6 @@ import static core.selenium.webdrivers.Browsers.FIREFOX;
  * @version 0.0.1
  */
 public class WebDriverFactory {
-    private static WebDriver webDriver;
-    private static final String BROWSER_MESSAGE = "Browser is not exist";
-
     /**
      * This method returns the initialized web driver according to the name of the browser it receives.
      *

@@ -1,4 +1,4 @@
-package MercuryTours.ui.report;
+package MercuryTours.report;
 
 import core.utils.Log;
 import net.masterthought.cucumber.Configuration;

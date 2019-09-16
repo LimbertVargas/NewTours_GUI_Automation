@@ -1,9 +1,6 @@
 package steps;
 
-import MercuryTours.ui.common.AppReader;
 import MercuryTours.ui.pages.LoginPage;
-import MercuryTours.ui.pages.PageTransporter;
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.testng.Assert;
@@ -15,15 +12,7 @@ import org.testng.Assert;
  * @version 0.0.1
  */
 public class LoginSteps {
-    private LoginPage loginPage;
-
-    /**
-     * This method is in charge of opening the page.
-     */
-    @Given("I visit the main page of Mercury Tours")
-    public void initializePage() {
-        PageTransporter.goToLoginPage("http://newtours.demoaut.com/");
-    }
+    private static LoginPage loginPage = new LoginPage();
 
     /**
      * This method fills in the user data to be able to log in.

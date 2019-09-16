@@ -1,4 +1,4 @@
-package MercuryTours.ui.common;
+package MercuryTours.common;
 
 import core.utils.Log;
 
@@ -17,6 +17,7 @@ public final class AppReader {
     private static final String FILE_PROPERTIES = "MercuryTours.properties";
     private static AppReader appReader;
     private Properties properties;
+
     /**
      * this method is used for initializes the variables.
      */

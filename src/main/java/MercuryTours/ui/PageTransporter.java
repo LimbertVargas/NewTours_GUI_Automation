@@ -1,6 +1,6 @@
-package MercuryTours.ui.pages;
+package MercuryTours.ui;
 
-import MercuryTours.ui.common.AppReader;
+import MercuryTours.common.AppReader;
 import core.selenium.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 

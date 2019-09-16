@@ -1,6 +1,6 @@
 package MercuryTours.ui.pages;
 
-import MercuryTours.ui.common.AppReader;
+import MercuryTours.common.AppReader;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -11,7 +11,6 @@ import org.openqa.selenium.support.FindBy;
  * @version 0.0.1
  */
 public class LoginPage extends Base {
-
     @FindBy(name = "userName")
     private WebElement userNameTxtBx;
 
@@ -74,6 +73,9 @@ public class LoginPage extends Base {
      * This method close the window page.
      */
     public void closeWindow() {
-        driver.close();
+        webDriver.close();
     }
+
+    @Override
+    protected void waitUntilPageObjectIsLoaded() {}
 }

@@ -1,6 +1,6 @@
 package runner;
 
-import MercuryTours.ui.report.Report;
+import MercuryTours.report.Report;
 import core.selenium.WebDriverManager;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
