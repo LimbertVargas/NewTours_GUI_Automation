@@ -27,12 +27,13 @@ public class Hooks {
 
     /**
      * This method is used for implement After.
+     *
      * @param scenario The parameter scenario defines a input scenario.
      */
     @After
     public void tearDown(final Scenario scenario) {
         if (scenario.isFailed()) {
-            try{
+            try {
                 byte[] screenshot = ((TakesScreenshot) webDriver).getScreenshotAs(OutputType.BYTES);
                 scenario.embed(screenshot, "image/png");
             } catch (WebDriverException e) {

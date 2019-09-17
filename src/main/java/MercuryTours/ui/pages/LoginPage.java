@@ -77,5 +77,6 @@ public class LoginPage extends Base {
     }
 
     @Override
-    protected void waitUntilPageObjectIsLoaded() {}
+    protected void waitUntilPageObjectIsLoaded() {
+    }
 }
