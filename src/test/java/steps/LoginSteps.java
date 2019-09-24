@@ -1,5 +1,7 @@
 package steps;
 
+import MercuryTours.ui.pages.ApplicationBasePage;
+import MercuryTours.ui.pages.FlightsPage;
 import MercuryTours.ui.pages.LoginPage;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -13,6 +15,7 @@ import org.testng.Assert;
  */
 public class LoginSteps {
     private static LoginPage loginPage = new LoginPage();
+    FlightsPage flightsPage;
 
     /**
      * This method fills in the user data to be able to log in.
@@ -32,4 +35,17 @@ public class LoginSteps {
     public void verifyAccount() {
         Assert.assertEquals(loginPage.getText(), "SIGN-OFF");
     }
+
+
+
+    public void testLogin() {
+        loginPage = new LoginPage();
+
+        flightsPage = loginPage.setUserName("")
+                .setPassword("")
+                .clickSignInBtn();
+        Assert.assertTrue(flightsPage.getTopMenu().isSignOffBtnDisplayed(),
+                "Login successful");
+    }
+
 }

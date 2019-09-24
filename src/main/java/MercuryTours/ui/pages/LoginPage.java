@@ -10,7 +10,7 @@ import org.openqa.selenium.support.FindBy;
  * @author Limbert Alvaro Vargas Laura
  * @version 0.0.1
  */
-public class LoginPage extends Base {
+public class LoginPage extends ApplicationBasePage {
     @FindBy(name = "userName")
     private WebElement userNameTxtBx;
 
@@ -20,8 +20,6 @@ public class LoginPage extends Base {
     @FindBy(name = "login")
     private WebElement signInBtn;
 
-    @FindBy(linkText = "SIGN-OFF")
-    private WebElement homePageTxt;
 
     /**
      * This method uses for set the parameters to login.
@@ -40,8 +38,9 @@ public class LoginPage extends Base {
      *
      * @param userName that represent a valid user name
      */
-    public void setUserName(final String userName) {
+    public LoginPage setUserName(final String userName) {
         userNameTxtBx.sendKeys(userName);
+        return this;
     }
 
     /**
@@ -49,32 +48,27 @@ public class LoginPage extends Base {
      *
      * @param password that represent a valid password for the user name.
      */
-    public void setPassword(final String password) {
+    public LoginPage setPassword(final String password) {
         passwdTxtBx.sendKeys(password);
+        return this;
     }
 
     /**
      * This method is in charge of clicking on the sign in button.
      */
-    public void clickSignInBtn() {
+    public FlightsPage clickSignInBtn() {
         signInBtn.click();
+        return new FlightsPage();
     }
 
-    /**
-     * This method checks the user credentials with an text.
-     *
-     * @return the text "SIGN-OFF" to show in the page.
-     */
-    public String getText() {
-        return homePageTxt.getText();
-    }
-
-    /**
-     * This method close the window page.
-     */
-    public void closeWindow() {
-        webDriver.close();
-    }
+//    /**
+//     * This method checks the user credentials with an text.
+//     *
+//     * @return the text "SIGN-OFF" to show in the page.
+//     */
+//    public String getText() {
+//        return homePageTxt.getText();
+//    }
 
     @Override
     protected void waitUntilPageObjectIsLoaded() {
